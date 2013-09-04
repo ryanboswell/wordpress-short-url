@@ -1,5 +1,7 @@
 === WordPress Custom Short URL ===
+
 Contributors: ryanboswell
+
 Tested up to: 3.5 Single
 
 == Description ==
