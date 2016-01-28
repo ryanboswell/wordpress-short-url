@@ -95,7 +95,7 @@ class Short_URL {
 					<tr>
 						<th scope="row"><label for="base_url">Base URL:</label></th>
 						<td><input type="text" id="base_url" value="<?php echo esc_url( $options[ 'base_url' ] ); ?>" name="<?php echo esc_attr( self::$options_name ); ?>[base_url]" /></td>
-						<td><span class="description">Replace '<strong>http://<?php echo esc_html( self::$generic_base_url ); ?></strong>' with this when generating short urls.</span></td>
+						<td><span class="description">What to replace '<strong>http://<?php echo esc_html( self::$generic_base_url ); ?></strong>' with this when generating short urls.</span></td>
 					</tr>
 				</table>
 				<p><input type="submit" value="Save Changes" class="button-primary" /></p>
